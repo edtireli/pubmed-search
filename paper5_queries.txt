@@ -1,0 +1,13 @@
+# Paper 5 reference searches: CTH predicts SpO2 instability in PCS
+# Each line is a PubMed query
+
+capillary transit time heterogeneity traumatic brain injury
+capillary transit time heterogeneity oxygen extraction
+normobaric hypoxia mild traumatic brain injury SpO2
+pulse oximetry concussion mTBI hypoxia
+cerebral blood flow post-concussion syndrome perfusion MRI
+SpO2 variability instability brain injury
+autonomic dysfunction concussion SpO2
+cerebral metabolic rate oxygen concussion mTBI
+DSC-MRI capillary transit time heterogeneity estimation
+hypoxic ventilatory response brain injury

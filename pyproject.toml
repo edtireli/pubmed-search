@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pubmed-search"
+version = "1.0.0"
+description = "Search PubMed and generate BibTeX references from the command line"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["pubmed", "bibtex", "citation", "literature", "ncbi"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.scripts]
+pubmed-search = "pubmed_search.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/edtireli/pubmed-search"
