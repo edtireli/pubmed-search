@@ -5,17 +5,35 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pubmed-search"
 version = "1.0.0"
-description = "Search PubMed and generate BibTeX references from the command line"
+description = "Search PubMed and generate BibTeX references from the command line. Zero dependencies."
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
-keywords = ["pubmed", "bibtex", "citation", "literature", "ncbi"]
+authors = [
+    {name = "Edis D. Tireli", email = "edtireli@gmail.com"},
+]
+keywords = [
+    "pubmed", "bibtex", "citation", "literature", "ncbi",
+    "bibliography", "reference-manager", "latex", "academic",
+    "doi", "crossref", "research",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
+    "Environment :: Console",
     "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Typing :: Typed",
 ]
 
 [project.scripts]
@@ -23,3 +41,5 @@ pubmed-search = "pubmed_search.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/edtireli/pubmed-search"
+Repository = "https://github.com/edtireli/pubmed-search"
+Issues = "https://github.com/edtireli/pubmed-search/issues"
